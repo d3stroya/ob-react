@@ -1,10 +1,9 @@
 # Estructura de proyectos
-Dentro de src/components, creamos:
-* container: carpeta de componentes de orden superior. Tienen la lógica y los datos.
-* pure: los componentes puros, sin complejidad.
-    * forms: para formularios.
-
 Dentro de src, creamos:
+* components: aquí irán todos los componentes.
+    * container: carpeta de componentes de orden superior. Tienen la lógica y los datos.
+    * pure: los componentes puros, sin complejidad.
+    * forms: para formularios.
 * hooks: contiene todos los hooks.
 * routes: las rutas del proyecto.
 * pages: componentes que renderizan una página.
