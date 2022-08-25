@@ -43,9 +43,6 @@ const ContactCompnent = ({ contact, connect, remove }) => {
                 <div>{ changeConnected() }</div>
                 <h3>Phone number: { contact.mobile }</h3>
                 <h3>Email: { contact.email }</h3>
-
-                <button className='btn btn-success m-3' data-bs-toggle="modal" data-bs-target="#callModal">Call <i className='bi-telephone-forward'></i></button>
-                <button className='btn btn-primary' data-bs-toggle="modal" data-bs-target="#emailModal">Email <i className='bi-envelope'></i></button>
             </div>   
 
         </div>
